@@ -8,7 +8,7 @@ import (
 	"strings"
 )
 
-func GetOutputForCsv(dataSlice []interface{}) (Output string) {
+func GetCSV(dataSlice []interface{}) (Output string) {
 	if len(dataSlice) == 0 {
 		return
 	}
